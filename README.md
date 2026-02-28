@@ -9,6 +9,8 @@ A Node.js application demonstrating structured logging using the [Winston](https
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
+├── test
+    ├── logger.test.js
 ├── README.md
 └── src
     ├── logger.js
