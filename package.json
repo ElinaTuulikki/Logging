@@ -1,15 +1,19 @@
 {
-  "name": "luento7",
+  "name": "logging",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Node.js logging with Winston",
+  "main": "src/main.js",
+  "engines": {
+    "node": ">=18"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "mocha test/*.test.js --exit"
+  },
   "dependencies": {
-    "winston": "^3.11.0"
+    "winston": "3.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.3.0"
   }
 }
